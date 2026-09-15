@@ -1,0 +1,88 @@
+@import url("https://fontsgeek.com/dax-font");
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "Dax";
+    background: linear-gradient(to left, gold, orange);
+}
+.container {
+    background-color: crimson;
+    padding: 10px 30px;
+    border-radius: 35px;
+    box-shadow: 0 0 5px crimson;
+}
+.btnContainer {
+    margin: 10px;
+}
+dialog {
+    text-align: center;
+}
+dialog p {
+    margin: 5px;
+}
+dialog button {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+h1 {
+    margin: 10px;
+    font-size: 3rem;
+}
+h2 {
+    margin: 5px;
+    font-weight: 300;
+    font-size: 2.25rem;
+}
+input {
+    margin: 7.5px;
+    width: 350px;
+    height: 25px;
+    font-size: 1.2rem;
+    font-family: "Dax";
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 0;
+}
+.output {
+    cursor: default;
+}
+button {
+    cursor: pointer;
+    margin: 0;
+    font-size: 20px;
+    font-family: "Dax";
+}
+#translate {
+    background-color: greenyellow;
+    border-color: rgb(88, 131, 24);
+}
+#translate:active {
+    background-color: rgb(193, 255, 100);
+    border-color: rgb(99, 129, 54);
+}
+#reset {
+    background-color: aqua;
+    border-color: rgb(0, 150, 150);
+}
+#reset:active {
+    background-color: rgb(105, 255, 255);
+    border-color: rgb(60, 144, 144);
+}
+#help {
+    background-color: rgb(197, 61, 255);
+    border-color: rgb(118, 36, 153)
+}
+#help:active {
+    background-color: rgb(210, 105, 255);
+    border-color: rgb(124, 61, 152)
+}
+#close {
+    background-color: seagreen;
+    border-color: rgb(32, 99, 61);
+}
+#close:active {
+    background-color: rgb(81, 138, 106);
+    border-color: rgb(58, 100, 76);
+}

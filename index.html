@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="icon/png" href="morse translator icon.png">
+        <title>Morse Code Translator</title>
+    </head>
+    <body>
+        <h1 title="-- --- .-. ... .  -.-. --- -.. .  - .-. .- -. ... .-.. .- - --- .-.">Morse Code Translator</h1>
+        <div class="container">
+            <h2>Input</h2>
+            <input class="input" placeholder="Type text here." required>
+            <h2>Output</h2>
+            <input class="output" placeholder="Anything you type will be converted." readonly>
+        </div>
+        <div class="btnContainer">
+            <button id="translate" onclick="translateBtn()">Translate</button>
+            <button id="reset" style="display:none;" onclick="resetBtn()">Reset</button>
+            <button id="help" onclick="helpBtn()">Help</button>
+        </div>
+        <dialog>
+            <h1>Text to Morse Code</h1>
+            <p>Type letters, numbers, or punctuation into the <b>Input</b> box, then once you</p>
+            <p>click the <b>Translate</b> button, it'll translate the text into morse code.</p>
+            <p>However, if a character can't be translated, this symbol: '#', will be shown in the <b>Output</b> box.</p>
+            <button id="close" onclick="closeHelpBtn()">Close</button>
+        </dialog>
+        <script src="script.js"></script>
+    </body>
+</html>
